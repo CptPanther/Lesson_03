@@ -16,7 +16,10 @@ internal class Program
             {
                 if (number % denominator == 0
                     && denominator != number)
+                {
                     flag = true;
+                    break;
+                }
                 denominator += 1;
             }
 
